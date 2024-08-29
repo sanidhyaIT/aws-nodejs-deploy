@@ -10,7 +10,8 @@ app.get('/api/get_user_details', (req,res)=> {
         user:{
             name: "Sanidhya",
             age:22,
-        contact:123456789
+        contact:123456789,
+        city:"kfdk"
 
         }
     })
