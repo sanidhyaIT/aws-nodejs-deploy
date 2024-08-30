@@ -8,10 +8,11 @@ app.get('/api/get', (req,res)=> {
 app.get('/api/get_user_details', (req,res)=> {
     res.send({
         user:{
-            name: "Sanidhya",
+            name: "Sanidhya rawat",
             age:22,
         contact:123456789,
-        city:"kfdk"
+        city:"kfdk",
+        
 
         },env:process.env.NAME
     })
